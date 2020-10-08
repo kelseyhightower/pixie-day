@@ -1,0 +1,7 @@
+#!/bin/bash
+
+px run \
+  -o json \
+  -f ./scripts/ps.pxl -- \
+  --namespace kube-system \
+  | jq .

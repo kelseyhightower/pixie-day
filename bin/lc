@@ -1,0 +1,5 @@
+#!/bin/bash
+
+px get clusters \
+  -o json \
+  | jq .
